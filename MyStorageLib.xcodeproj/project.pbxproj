@@ -1,0 +1,625 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9F6D300D17D25CB8931B1192 /* Pods_MyStorageLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6BAFD44D5E0E6B5B932BC02 /* Pods_MyStorageLib.framework */; };
+		D5F34FF526B7C5D8001677F2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D5F34FF426B7C5D8001677F2 /* AppDelegate.m */; };
+		D5F34FFB26B7C5D8001677F2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5F34FFA26B7C5D8001677F2 /* ViewController.m */; };
+		D5F34FFE26B7C5D8001677F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5F34FFC26B7C5D8001677F2 /* Main.storyboard */; };
+		D5F3500026B7C5DC001677F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5F34FFF26B7C5DC001677F2 /* Assets.xcassets */; };
+		D5F3500326B7C5DC001677F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5F3500126B7C5DC001677F2 /* LaunchScreen.storyboard */; };
+		D5F3500626B7C5DC001677F2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D5F3500526B7C5DC001677F2 /* main.m */; };
+		D5F3500E26B7C646001677F2 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5F3500D26B7C646001677F2 /* BaseViewController.m */; };
+		D5F3501126B7C6DA001677F2 /* WPInfoWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5F3501026B7C6DA001677F2 /* WPInfoWebViewController.m */; };
+		D5F3501426B7C77D001677F2 /* ContentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D5F3501326B7C77C001677F2 /* ContentModel.m */; };
+		D5F350B026B7D84F001677F2 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = D5F350AE26B7D84F001677F2 /* Student.m */; };
+		D5F350B526B7E238001677F2 /* UIButton+EnlargeEdge.m in Sources */ = {isa = PBXBuildFile; fileRef = D5F350B326B7E238001677F2 /* UIButton+EnlargeEdge.m */; };
+		D5F350B926B7E312001677F2 /* NSMutableArray+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = D5F350B826B7E312001677F2 /* NSMutableArray+Category.m */; };
+		D5F350C226B7E864001677F2 /* DeallocViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5F350C126B7E864001677F2 /* DeallocViewController.m */; };
+		D5F350C726B7E985001677F2 /* AppleMemoryManageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5F350C626B7E985001677F2 /* AppleMemoryManageViewController.m */; };
+		D5F350CD26B81291001677F2 /* KVORealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5F350CC26B81291001677F2 /* KVORealViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		705F4F1F948B5D06647F79ED /* Pods-MyStorageLib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyStorageLib.debug.xcconfig"; path = "Target Support Files/Pods-MyStorageLib/Pods-MyStorageLib.debug.xcconfig"; sourceTree = "<group>"; };
+		7A8F6089A1C410BC3C2761A8 /* Pods-MyStorageLib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyStorageLib.release.xcconfig"; path = "Target Support Files/Pods-MyStorageLib/Pods-MyStorageLib.release.xcconfig"; sourceTree = "<group>"; };
+		C6BAFD44D5E0E6B5B932BC02 /* Pods_MyStorageLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyStorageLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5F34FF026B7C5D8001677F2 /* MyStorageLib.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyStorageLib.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5F34FF326B7C5D8001677F2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D5F34FF426B7C5D8001677F2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D5F34FF926B7C5D8001677F2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D5F34FFA26B7C5D8001677F2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D5F34FFD26B7C5D8001677F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D5F34FFF26B7C5DC001677F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D5F3500226B7C5DC001677F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D5F3500426B7C5DC001677F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5F3500526B7C5DC001677F2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D5F3500C26B7C646001677F2 /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		D5F3500D26B7C646001677F2 /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		D5F3500F26B7C6DA001677F2 /* WPInfoWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPInfoWebViewController.h; sourceTree = "<group>"; };
+		D5F3501026B7C6DA001677F2 /* WPInfoWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPInfoWebViewController.m; sourceTree = "<group>"; };
+		D5F3501226B7C77C001677F2 /* ContentModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentModel.h; sourceTree = "<group>"; };
+		D5F3501326B7C77C001677F2 /* ContentModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentModel.m; sourceTree = "<group>"; };
+		D5F350AE26B7D84F001677F2 /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		D5F350AF26B7D84F001677F2 /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		D5F350B326B7E238001677F2 /* UIButton+EnlargeEdge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIButton+EnlargeEdge.m"; path = "MyStorageLib/UIButton+EnlargeEdge.m"; sourceTree = SOURCE_ROOT; };
+		D5F350B426B7E238001677F2 /* UIButton+EnlargeEdge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIButton+EnlargeEdge.h"; path = "MyStorageLib/UIButton+EnlargeEdge.h"; sourceTree = SOURCE_ROOT; };
+		D5F350B726B7E312001677F2 /* NSMutableArray+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Category.h"; sourceTree = "<group>"; };
+		D5F350B826B7E312001677F2 /* NSMutableArray+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Category.m"; sourceTree = "<group>"; };
+		D5F350C026B7E864001677F2 /* DeallocViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeallocViewController.h; sourceTree = "<group>"; };
+		D5F350C126B7E864001677F2 /* DeallocViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeallocViewController.m; sourceTree = "<group>"; };
+		D5F350C526B7E985001677F2 /* AppleMemoryManageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppleMemoryManageViewController.h; sourceTree = "<group>"; };
+		D5F350C626B7E985001677F2 /* AppleMemoryManageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppleMemoryManageViewController.m; sourceTree = "<group>"; };
+		D5F350CB26B81291001677F2 /* KVORealViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KVORealViewController.h; sourceTree = "<group>"; };
+		D5F350CC26B81291001677F2 /* KVORealViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KVORealViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D5F34FED26B7C5D8001677F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F6D300D17D25CB8931B1192 /* Pods_MyStorageLib.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B8B3F1DB2CF3580738839D6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				705F4F1F948B5D06647F79ED /* Pods-MyStorageLib.debug.xcconfig */,
+				7A8F6089A1C410BC3C2761A8 /* Pods-MyStorageLib.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B173742D5AA16322BDE86B71 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C6BAFD44D5E0E6B5B932BC02 /* Pods_MyStorageLib.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D5F34FE726B7C5D8001677F2 = {
+			isa = PBXGroup;
+			children = (
+				D5F34FF226B7C5D8001677F2 /* MyStorageLib */,
+				D5F34FF126B7C5D8001677F2 /* Products */,
+				0B8B3F1DB2CF3580738839D6 /* Pods */,
+				B173742D5AA16322BDE86B71 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D5F34FF126B7C5D8001677F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D5F34FF026B7C5D8001677F2 /* MyStorageLib.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D5F34FF226B7C5D8001677F2 /* MyStorageLib */ = {
+			isa = PBXGroup;
+			children = (
+				D5F350D126B813DB001677F2 /* 存储 */,
+				D5F350BA26B7E7A1001677F2 /* 内存管理 */,
+				D5F350BD26B7E7E8001677F2 /* Load+initialize */,
+				D5F350B626B7E2F0001677F2 /* 方法交换 */,
+				D5F350B226B7E220001677F2 /* 关联 */,
+				D5F350B126B7E208001677F2 /* 消息转发 */,
+				D5F3501226B7C77C001677F2 /* ContentModel.h */,
+				D5F3501326B7C77C001677F2 /* ContentModel.m */,
+				D5F34FF326B7C5D8001677F2 /* AppDelegate.h */,
+				D5F34FF426B7C5D8001677F2 /* AppDelegate.m */,
+				D5F3500C26B7C646001677F2 /* BaseViewController.h */,
+				D5F3500D26B7C646001677F2 /* BaseViewController.m */,
+				D5F3500F26B7C6DA001677F2 /* WPInfoWebViewController.h */,
+				D5F3501026B7C6DA001677F2 /* WPInfoWebViewController.m */,
+				D5F34FF926B7C5D8001677F2 /* ViewController.h */,
+				D5F34FFA26B7C5D8001677F2 /* ViewController.m */,
+				D5F34FFC26B7C5D8001677F2 /* Main.storyboard */,
+				D5F34FFF26B7C5DC001677F2 /* Assets.xcassets */,
+				D5F3500126B7C5DC001677F2 /* LaunchScreen.storyboard */,
+				D5F3500426B7C5DC001677F2 /* Info.plist */,
+				D5F3500526B7C5DC001677F2 /* main.m */,
+			);
+			path = MyStorageLib;
+			sourceTree = "<group>";
+		};
+		D5F350B126B7E208001677F2 /* 消息转发 */ = {
+			isa = PBXGroup;
+			children = (
+				D5F350AF26B7D84F001677F2 /* Student.h */,
+				D5F350AE26B7D84F001677F2 /* Student.m */,
+			);
+			path = "消息转发";
+			sourceTree = "<group>";
+		};
+		D5F350B226B7E220001677F2 /* 关联 */ = {
+			isa = PBXGroup;
+			children = (
+				D5F350C926B7EC2C001677F2 /* 关联的内存管理 */,
+				D5F350B426B7E238001677F2 /* UIButton+EnlargeEdge.h */,
+				D5F350B326B7E238001677F2 /* UIButton+EnlargeEdge.m */,
+			);
+			path = "关联";
+			sourceTree = "<group>";
+		};
+		D5F350B626B7E2F0001677F2 /* 方法交换 */ = {
+			isa = PBXGroup;
+			children = (
+				D5F350B726B7E312001677F2 /* NSMutableArray+Category.h */,
+				D5F350B826B7E312001677F2 /* NSMutableArray+Category.m */,
+			);
+			path = "方法交换";
+			sourceTree = "<group>";
+		};
+		D5F350BA26B7E7A1001677F2 /* 内存管理 */ = {
+			isa = PBXGroup;
+			children = (
+				D5F350CA26B8125C001677F2 /* 动态添加 */,
+				D5F350C826B7EC0E001677F2 /* 类别底层原理 */,
+				D5F350C426B7E962001677F2 /* 官方文档 */,
+				D5F350BF26B7E824001677F2 /* weak底层实现 */,
+				D5F350BE26B7E813001677F2 /* 自动释放池 */,
+				D5F350BC26B7E7BE001677F2 /* Dealloc */,
+				D5F350BB26B7E7AE001677F2 /* Block内存管理 */,
+			);
+			path = "内存管理";
+			sourceTree = "<group>";
+		};
+		D5F350BB26B7E7AE001677F2 /* Block内存管理 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Block内存管理";
+			sourceTree = "<group>";
+		};
+		D5F350BC26B7E7BE001677F2 /* Dealloc */ = {
+			isa = PBXGroup;
+			children = (
+				D5F350C026B7E864001677F2 /* DeallocViewController.h */,
+				D5F350C126B7E864001677F2 /* DeallocViewController.m */,
+			);
+			path = Dealloc;
+			sourceTree = "<group>";
+		};
+		D5F350BD26B7E7E8001677F2 /* Load+initialize */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Load+initialize";
+			sourceTree = "<group>";
+		};
+		D5F350BE26B7E813001677F2 /* 自动释放池 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "自动释放池";
+			sourceTree = "<group>";
+		};
+		D5F350BF26B7E824001677F2 /* weak底层实现 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "weak底层实现";
+			sourceTree = "<group>";
+		};
+		D5F350C426B7E962001677F2 /* 官方文档 */ = {
+			isa = PBXGroup;
+			children = (
+				D5F350C526B7E985001677F2 /* AppleMemoryManageViewController.h */,
+				D5F350C626B7E985001677F2 /* AppleMemoryManageViewController.m */,
+			);
+			path = "官方文档";
+			sourceTree = "<group>";
+		};
+		D5F350C826B7EC0E001677F2 /* 类别底层原理 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "类别底层原理";
+			sourceTree = "<group>";
+		};
+		D5F350C926B7EC2C001677F2 /* 关联的内存管理 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "关联的内存管理";
+			sourceTree = "<group>";
+		};
+		D5F350CA26B8125C001677F2 /* 动态添加 */ = {
+			isa = PBXGroup;
+			children = (
+				D5F350CB26B81291001677F2 /* KVORealViewController.h */,
+				D5F350CC26B81291001677F2 /* KVORealViewController.m */,
+			);
+			path = "动态添加";
+			sourceTree = "<group>";
+		};
+		D5F350D126B813DB001677F2 /* 存储 */ = {
+			isa = PBXGroup;
+			children = (
+				D5F350D726B8144E001677F2 /* YYCache */,
+				D5F350D626B8140D001677F2 /* WCDB */,
+				D5F350D526B81400001677F2 /* Realm */,
+				D5F350D426B813F1001677F2 /* NSUserdefault */,
+				D5F350D326B813EA001677F2 /* FMDB */,
+				D5F350D226B813E3001677F2 /* MMKV */,
+			);
+			path = "存储";
+			sourceTree = "<group>";
+		};
+		D5F350D226B813E3001677F2 /* MMKV */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MMKV;
+			sourceTree = "<group>";
+		};
+		D5F350D326B813EA001677F2 /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = FMDB;
+			sourceTree = "<group>";
+		};
+		D5F350D426B813F1001677F2 /* NSUserdefault */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NSUserdefault;
+			sourceTree = "<group>";
+		};
+		D5F350D526B81400001677F2 /* Realm */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Realm;
+			sourceTree = "<group>";
+		};
+		D5F350D626B8140D001677F2 /* WCDB */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = WCDB;
+			sourceTree = "<group>";
+		};
+		D5F350D726B8144E001677F2 /* YYCache */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = YYCache;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D5F34FEF26B7C5D8001677F2 /* MyStorageLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5F3500926B7C5DC001677F2 /* Build configuration list for PBXNativeTarget "MyStorageLib" */;
+			buildPhases = (
+				0A377FA9041EA390D8341891 /* [CP] Check Pods Manifest.lock */,
+				D5F34FEC26B7C5D8001677F2 /* Sources */,
+				D5F34FED26B7C5D8001677F2 /* Frameworks */,
+				D5F34FEE26B7C5D8001677F2 /* Resources */,
+				200BA65B7D0BDEFC8977CC81 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyStorageLib;
+			productName = MyStorageLib;
+			productReference = D5F34FF026B7C5D8001677F2 /* MyStorageLib.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D5F34FE826B7C5D8001677F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					D5F34FEF26B7C5D8001677F2 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = D5F34FEB26B7C5D8001677F2 /* Build configuration list for PBXProject "MyStorageLib" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D5F34FE726B7C5D8001677F2;
+			productRefGroup = D5F34FF126B7C5D8001677F2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D5F34FEF26B7C5D8001677F2 /* MyStorageLib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D5F34FEE26B7C5D8001677F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5F3500326B7C5DC001677F2 /* LaunchScreen.storyboard in Resources */,
+				D5F3500026B7C5DC001677F2 /* Assets.xcassets in Resources */,
+				D5F34FFE26B7C5D8001677F2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0A377FA9041EA390D8341891 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyStorageLib-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		200BA65B7D0BDEFC8977CC81 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyStorageLib/Pods-MyStorageLib-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyStorageLib/Pods-MyStorageLib-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MyStorageLib/Pods-MyStorageLib-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D5F34FEC26B7C5D8001677F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5F350C726B7E985001677F2 /* AppleMemoryManageViewController.m in Sources */,
+				D5F350CD26B81291001677F2 /* KVORealViewController.m in Sources */,
+				D5F350B926B7E312001677F2 /* NSMutableArray+Category.m in Sources */,
+				D5F350C226B7E864001677F2 /* DeallocViewController.m in Sources */,
+				D5F34FFB26B7C5D8001677F2 /* ViewController.m in Sources */,
+				D5F350B526B7E238001677F2 /* UIButton+EnlargeEdge.m in Sources */,
+				D5F3500E26B7C646001677F2 /* BaseViewController.m in Sources */,
+				D5F3501126B7C6DA001677F2 /* WPInfoWebViewController.m in Sources */,
+				D5F34FF526B7C5D8001677F2 /* AppDelegate.m in Sources */,
+				D5F350B026B7D84F001677F2 /* Student.m in Sources */,
+				D5F3500626B7C5DC001677F2 /* main.m in Sources */,
+				D5F3501426B7C77D001677F2 /* ContentModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D5F34FFC26B7C5D8001677F2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5F34FFD26B7C5D8001677F2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D5F3500126B7C5DC001677F2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5F3500226B7C5DC001677F2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D5F3500726B7C5DC001677F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D5F3500826B7C5DC001677F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D5F3500A26B7C5DC001677F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 705F4F1F948B5D06647F79ED /* Pods-MyStorageLib.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MyStorageLib/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Wangpu.MyStorageLib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D5F3500B26B7C5DC001677F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A8F6089A1C410BC3C2761A8 /* Pods-MyStorageLib.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MyStorageLib/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Wangpu.MyStorageLib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D5F34FEB26B7C5D8001677F2 /* Build configuration list for PBXProject "MyStorageLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5F3500726B7C5DC001677F2 /* Debug */,
+				D5F3500826B7C5DC001677F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5F3500926B7C5DC001677F2 /* Build configuration list for PBXNativeTarget "MyStorageLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5F3500A26B7C5DC001677F2 /* Debug */,
+				D5F3500B26B7C5DC001677F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D5F34FE826B7C5D8001677F2 /* Project object */;
+}

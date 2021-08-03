@@ -1,0 +1,28 @@
+PODS:
+  - Aspects (1.4.1)
+  - DZNEmptyDataSet (1.8.1)
+  - TABAnimated (2.5.9)
+  - YYModel (1.0.4)
+
+DEPENDENCIES:
+  - Aspects
+  - DZNEmptyDataSet
+  - TABAnimated
+  - YYModel
+
+SPEC REPOS:
+  trunk:
+    - Aspects
+    - DZNEmptyDataSet
+    - TABAnimated
+    - YYModel
+
+SPEC CHECKSUMS:
+  Aspects: 7595ba96a6727a58ebcbfc954497fc5d2fdde546
+  DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
+  TABAnimated: 8d077a20de46de0c7744c665cd56aae28c49d397
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
+
+PODFILE CHECKSUM: 86d3dcfda6368d6055a25c6045596aac0bbc83c3
+
+COCOAPODS: 1.10.0
